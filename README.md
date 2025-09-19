@@ -6,8 +6,8 @@
 <head><title>To do list</title>
 
   <style>
-   
-    .completed{
+    .completed
+   {
         text-decoration: line-through;color:gray;
         background: #f0f0f0;
     }
