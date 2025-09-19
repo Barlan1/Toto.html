@@ -1,4 +1,4 @@
-# Toto.html
+# Todo.html
  <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8" >
@@ -6,11 +6,13 @@
 <head><title>To do list</title>
 
   <style>
+   
     .completed{
         text-decoration: line-through;color:gray;
         background: #f0f0f0;
     }
-    body{
+ body
+   {
       font-family: Arial, sans-serif;
       background: #f4f6f8;
       display: flex;
@@ -26,12 +28,16 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       width: 350px;
     }
-    h2 {
+   
+    h2
+   {
       text-align: center;
       margin-bottom: 20px;
       color: #333;
     }
-    input {
+    
+input 
+   {
       width: 70%;
       padding: 10px;
       border: 1px solid #ddd;
@@ -39,7 +45,8 @@
       outline: none;
      }
 
-    button {
+    button
+   {
       padding: 10px 15px;
       margin-left: 5px;
       border: none;
@@ -47,23 +54,28 @@
       cursor: pointer;
       font-size: 14px;
     }
-    button:hover {
+   
+    button:hover
+   {
       opacity: 0.9;
     }
-    .btn {
+    .btn
+   {
       background-color: #4CAF50;
       color: white;
       font-size: 14px;
       font-weight: bold;
     }
-    .doneBtn{
+    .doneBtn
+   {
       background-color: rgb(243, 175, 85);
      padding: 8px;
      color: white;
      font-weight: bold;
      border-radius: 12px;
     }
-    .removeBtn{
+    .removeBtn
+   {
      background-color: rgb(32, 149, 228);
      padding: 8px;
      color:white;
@@ -72,12 +84,14 @@
      
     }
 
-    ul {
+    ul 
+   {
       list-style: none;
       padding: 0;
       margin-top: 20px;
     }
-    li {
+    li
+   {
       display: flex;
       padding: 10px;
       background: #fafafa;
@@ -87,17 +101,18 @@
       border: 1px solid #eee;
       align-items: center;
     }
-
-
+   
   </style>
 </head>
 <body>
+ 
 <div class="container"> 
 <h2>My Todo list</h2>
 <input id="inputData" type="text">
 <button class="btn" type="button" onclick="addTask()">AddTask</button>
 <ul id="myList"></ul>
 </div>
+ 
 <Script>
   function addTask(){
 
